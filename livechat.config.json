@@ -1,3 +1,24 @@
 {
-    "id": "xHvapVRDg"
+    "id": "xHvapVRDg",
+    "name": "WaterApp",
+    "product": "livechat",
+    "blocks": {
+        "authorization": {
+            "clientId": "dd073cca35b22e85580431451d0c0bd9",
+            "type": "javascript_app",
+            "redirectUri": "http://localhost"
+        },
+        "repository": {
+            "provider": "github",
+            "name": "tombrasjtubert/waterapp",
+            "branch": "main"
+        },
+        "widgets": {
+            "7tRn5v2DVO": {
+                "url": "https://livechat-contact-form.netlify.app/",
+                "placement": "plugin",
+                "initialState": ""
+            }
+        }
+    }
 }
